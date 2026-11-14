@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crew status</title>
+<meta name="description" content="Whether Crew and the services it runs on are working, updated by Crew's own checks.">
+<style>:root{--bg:#fbfaf7;--fg:#1d1b16;--muted:#5d5a52;--line:#d9d5cb;--ok:#1d6b3a;--bad:#9a3412;--unk:#5d5a52}
+@media (prefers-color-scheme:dark){:root{--bg:#16150f;--fg:#f1efe8;--muted:#b8b4a8;--line:#3a382f;--ok:#7bd69a;--bad:#ffb38a;--unk:#b8b4a8}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:46rem;margin:0 auto;padding:2rem 1rem}h1{font-size:1.6rem;margin:0 0 .25rem}h2{font-size:1.15rem;margin:2rem 0 .5rem}
+p{margin:.25rem 0 .75rem}.muted{color:var(--muted)}.banner{border:2px solid var(--line);border-radius:.5rem;padding:.75rem 1rem;margin:1rem 0}
+.banner.bad{border-color:var(--bad)}.stale{border-color:var(--bad)}ul{list-style:none;padding:0;margin:0}li{border-bottom:1px solid var(--line);padding:.6rem 0}
+.state{font-weight:600}.operational .state{color:var(--ok)}.degraded .state{color:var(--bad)}.unknown .state{color:var(--unk)}
+table{border-collapse:collapse;width:100%;font-size:.95rem}caption{text-align:left;color:var(--muted);padding-bottom:.5rem}
+th,td{text-align:left;border-bottom:1px solid var(--line);padding:.35rem .5rem .35rem 0}a{color:inherit}[hidden]{display:none}</style>
+</head>
+<body data-updated="1794699712691" data-stale-after="2700000">
+<main>
+<h1>Crew status</h1>
+<p class="muted">Updated 2026-11-14 23:41 UTC by Crew's own checks. This page is hosted on GitHub, apart from Crew, so it stays up when Crew or Cloudflare is down.</p>
+<div id="stale" class="banner stale" role="alert" hidden><p><strong>Crew's own checks haven't reported since 2026-11-14 23:41 UTC.</strong> Crew itself may be down. Anything you send in the app waits on your phone and goes when Crew is back.</p></div>
+<div class="banner bad" role="status"><p><strong>Some of Crew is affected right now.</strong></p><p>Cloudflare reports a problem. Cloudflare runs Crew and your sites, so some things may be slow or unreachable until it&#39;s fixed.</p></div>
+<h2>Services Crew runs on</h2>
+<ul><li class="operational"><span aria-hidden="true">●</span> <strong>Anthropic</strong>: <span class="state">Working</span>. <a href="https://status.claude.com">Anthropic status</a></li><li class="degraded"><span aria-hidden="true">▲</span> <strong>Cloudflare</strong>: <span class="state">Problem reported</span>. <span class="muted">Changes to Cloudflare Workers are not producing Event Subscription events</span> <a href="https://www.cloudflarestatus.com">Cloudflare status</a></li><li class="operational"><span aria-hidden="true">●</span> <strong>Neon</strong>: <span class="state">Working</span>. <a href="https://neonstatus.com">Neon status</a></li><li class="operational"><span aria-hidden="true">●</span> <strong>ElevenLabs</strong>: <span class="state">Working</span>. <a href="https://status.elevenlabs.io">ElevenLabs status</a></li><li class="operational"><span aria-hidden="true">●</span> <strong>GitHub</strong>: <span class="state">Working</span>. <a href="https://www.githubstatus.com">GitHub status</a></li><li class="operational"><span aria-hidden="true">●</span> <strong>Firebase</strong>: <span class="state">Working</span>. <a href="https://status.firebase.google.com">Firebase status</a></li><li class="operational"><span aria-hidden="true">●</span> <strong>Paystack</strong>: <span class="state">Working</span>. <a href="https://status.paystack.com">Paystack status</a></li></ul>
+<h2>History</h2>
+<table><caption>Crew's own checks per day (UTC), newest first. A check runs every 2 minutes; fewer checks than usual means Crew itself could not run them.</caption><thead><tr><th scope="col">Day</th><th scope="col">Checks run</th><th scope="col">Providers with a problem</th></tr></thead><tbody><tr><th scope="row">2026-11-14</th><td>1</td><td>Cloudflare 2 min</td></tr></tbody></table>
+<p class="muted">Machine-readable: <a href="status.json">status.json</a> (crew.status@1) and <a href="history.json">history.json</a>.</p>
+</main>
+<script>(function(){var b=document.body,u=Number(b.dataset.updated),s=Number(b.dataset.staleAfter);if(!(u>0)||Date.now()-u<=s)return;var n=document.getElementById("stale");n.hidden=false;})();</script>
+</body>
+</html>

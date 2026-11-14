@@ -1,0 +1,12 @@
+{
+  "schema": "crew.status-history@1",
+  "days": [
+    {
+      "day": "2026-11-14",
+      "ticks": 1,
+      "degradedMinutes": {
+        "cloudflare": 2
+      }
+    }
+  ]
+}
