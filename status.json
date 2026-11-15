@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-15T04:13:17.424Z",
+  "checkedAt": "2026-11-15T04:17:20.300Z",
   "overall": "degraded",
   "providers": [
     {
@@ -44,8 +44,8 @@
     {
       "provider": "github",
       "name": "GitHub",
-      "state": "operational",
-      "since": "2026-11-14T23:41:52.691Z",
+      "state": "unknown",
+      "since": "2026-11-15T04:17:20.300Z",
       "evidence": [],
       "incident": null,
       "page": "https://www.githubstatus.com"
