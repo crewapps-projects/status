@@ -3,9 +3,16 @@
   "days": [
     {
       "day": "2026-11-14",
-      "ticks": 1,
+      "ticks": 9,
       "degradedMinutes": {
-        "cloudflare": 2
+        "cloudflare": 18
+      }
+    },
+    {
+      "day": "2026-11-15",
+      "ticks": 7,
+      "degradedMinutes": {
+        "cloudflare": 14
       }
     }
   ]
