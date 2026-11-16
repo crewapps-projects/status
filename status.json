@@ -1,15 +1,17 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-16T07:30:16.527Z",
+  "checkedAt": "2026-11-16T07:50:34.988Z",
   "overall": "degraded",
   "providers": [
     {
       "provider": "anthropic",
       "name": "Anthropic",
-      "state": "operational",
-      "since": "2026-11-14T23:41:52.691Z",
-      "evidence": [],
-      "incident": null,
+      "state": "degraded",
+      "since": "2026-11-16T07:50:34.988Z",
+      "evidence": [
+        "feed"
+      ],
+      "incident": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
       "page": "https://status.claude.com"
     },
     {
@@ -70,6 +72,15 @@
     }
   ],
   "notices": [
+    {
+      "provider": "anthropic",
+      "features": [
+        "replies",
+        "builds"
+      ],
+      "text": "Anthropic reports a problem. Your messages are saved, and Crew will reply and carry on building when it's fixed. Nothing is charged while it waits.",
+      "since": "2026-11-16T07:50:34.988Z"
+    },
     {
       "provider": "cloudflare",
       "features": [
