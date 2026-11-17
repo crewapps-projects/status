@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-17T22:28:32.850Z",
+  "checkedAt": "2026-11-17T22:32:37.371Z",
   "overall": "degraded",
   "providers": [
     {
@@ -62,10 +62,12 @@
     {
       "provider": "paystack",
       "name": "Paystack",
-      "state": "operational",
-      "since": "2026-11-14T23:41:52.691Z",
-      "evidence": [],
-      "incident": null,
+      "state": "degraded",
+      "since": "2026-11-17T22:32:37.371Z",
+      "evidence": [
+        "feed"
+      ],
+      "incident": "Transactions / GHANA / Mobile Money: undermaintenance",
       "page": "https://status.paystack.com"
     }
   ],
@@ -79,6 +81,14 @@
       ],
       "text": "Cloudflare reports a problem. Cloudflare runs Crew and your sites, so some things may be slow or unreachable until it's fixed.",
       "since": "2026-11-14T23:41:52.691Z"
+    },
+    {
+      "provider": "paystack",
+      "features": [
+        "payments"
+      ],
+      "text": "Paystack reports a problem. Buying credits may fail until it's fixed. You are never charged twice.",
+      "since": "2026-11-17T22:32:37.371Z"
     }
   ]
 }
