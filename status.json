@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-17T21:38:05.264Z",
+  "checkedAt": "2026-11-17T21:58:16.626Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "R2 elevated errors and timeouts for requests from South America",
+      "incident": "Issues with Durable Objects and Dependent Services",
       "page": "https://www.cloudflarestatus.com"
     },
     {
