@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-18T14:47:50.674Z",
+  "checkedAt": "2026-11-18T15:04:02.441Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "R2 Downloads Stalling in Japan",
+      "incident": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "page": "https://www.cloudflarestatus.com"
     },
     {
