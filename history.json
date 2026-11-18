@@ -33,11 +33,11 @@
     },
     {
       "day": "2026-11-18",
-      "ticks": 510,
+      "ticks": 525,
       "degradedMinutes": {
-        "cloudflare": 1020,
+        "cloudflare": 1050,
         "paystack": 300,
-        "elevenlabs": 92
+        "elevenlabs": 122
       }
     }
   ]
