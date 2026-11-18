@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-18T22:28:02.849Z",
+  "checkedAt": "2026-11-18T22:56:14.028Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Elevated R2 error rates in EU and Asia Pacific region",
+      "incident": "Elevated R2 and D1 error rates in EU and Asia Pacific region",
       "page": "https://www.cloudflarestatus.com"
     },
     {
