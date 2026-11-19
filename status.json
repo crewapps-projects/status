@@ -1,15 +1,17 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-19T08:53:49.595Z",
+  "checkedAt": "2026-11-19T09:12:02.658Z",
   "overall": "degraded",
   "providers": [
     {
       "provider": "anthropic",
       "name": "Anthropic",
-      "state": "operational",
-      "since": "2026-11-16T09:05:10.109Z",
-      "evidence": [],
-      "incident": null,
+      "state": "degraded",
+      "since": "2026-11-19T09:12:02.658Z",
+      "evidence": [
+        "feed"
+      ],
+      "incident": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
       "page": "https://status.claude.com"
     },
     {
@@ -70,6 +72,15 @@
     }
   ],
   "notices": [
+    {
+      "provider": "anthropic",
+      "features": [
+        "replies",
+        "builds"
+      ],
+      "text": "Anthropic reports a problem. Your messages are saved, and Crew will reply and carry on building when it's fixed. Nothing is charged while it waits.",
+      "since": "2026-11-19T09:12:02.658Z"
+    },
     {
       "provider": "cloudflare",
       "features": [
