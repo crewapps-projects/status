@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-19T13:00:23.638Z",
+  "checkedAt": "2026-11-19T13:06:30.639Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "incident": "Durable Objects and D1 – Increased Errors",
       "page": "https://www.cloudflarestatus.com"
     },
     {
