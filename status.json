@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-19T21:33:23.839Z",
+  "checkedAt": "2026-11-19T21:57:38.550Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Observability ingestion delay and query failures",
+      "incident": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "page": "https://www.cloudflarestatus.com"
     },
     {
