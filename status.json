@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-19T10:04:31.002Z",
+  "checkedAt": "2026-11-19T10:26:42.914Z",
   "overall": "degraded",
   "providers": [
     {
@@ -35,10 +35,12 @@
     {
       "provider": "elevenlabs",
       "name": "ElevenLabs",
-      "state": "operational",
-      "since": "2026-11-18T21:03:29.482Z",
-      "evidence": [],
-      "incident": null,
+      "state": "degraded",
+      "since": "2026-11-19T10:26:42.914Z",
+      "evidence": [
+        "feed"
+      ],
+      "incident": "Degraded performance of Voice Library voices",
       "page": "https://status.elevenlabs.io"
     },
     {
@@ -79,6 +81,14 @@
       ],
       "text": "Cloudflare reports a problem. Cloudflare runs Crew and your sites, so some things may be slow or unreachable until it's fixed.",
       "since": "2026-11-14T23:41:52.691Z"
+    },
+    {
+      "provider": "elevenlabs",
+      "features": [
+        "voice"
+      ],
+      "text": "ElevenLabs reports a problem. Crew's replies come as text, not voice, until it's fixed.",
+      "since": "2026-11-19T10:26:42.914Z"
     }
   ]
 }
