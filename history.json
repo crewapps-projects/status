@@ -48,6 +48,13 @@
         "anthropic": 22,
         "elevenlabs": 30
       }
+    },
+    {
+      "day": "2026-11-20",
+      "ticks": 15,
+      "degradedMinutes": {
+        "cloudflare": 30
+      }
     }
   ]
 }
