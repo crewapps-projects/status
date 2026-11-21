@@ -59,9 +59,9 @@
     },
     {
       "day": "2026-11-21",
-      "ticks": 328,
+      "ticks": 343,
       "degradedMinutes": {
-        "cloudflare": 656
+        "cloudflare": 686
       }
     }
   ]
