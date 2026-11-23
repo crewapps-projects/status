@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-23T23:04:50.097Z",
+  "checkedAt": "2026-11-23T23:35:22.605Z",
   "overall": "degraded",
   "providers": [
     {
