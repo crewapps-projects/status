@@ -1,15 +1,17 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-23T09:39:33.199Z",
+  "checkedAt": "2026-11-23T09:49:42.202Z",
   "overall": "degraded",
   "providers": [
     {
       "provider": "anthropic",
       "name": "Anthropic",
-      "state": "operational",
-      "since": "2026-11-19T09:34:15.717Z",
-      "evidence": [],
-      "incident": null,
+      "state": "degraded",
+      "since": "2026-11-23T09:49:42.202Z",
+      "evidence": [
+        "feed"
+      ],
+      "incident": "Elevated errors for multiple models",
       "page": "https://status.claude.com"
     },
     {
@@ -70,6 +72,15 @@
     }
   ],
   "notices": [
+    {
+      "provider": "anthropic",
+      "features": [
+        "replies",
+        "builds"
+      ],
+      "text": "Anthropic reports a problem. Your messages are saved, and Crew will reply and carry on building when it's fixed. Nothing is charged while it waits.",
+      "since": "2026-11-23T09:49:42.202Z"
+    },
     {
       "provider": "cloudflare",
       "features": [
