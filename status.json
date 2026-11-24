@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-24T21:24:56.814Z",
+  "checkedAt": "2026-11-24T21:37:09.259Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Cloudflare Workers API – Delayed or Inconsistent Responses",
+      "incident": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "page": "https://www.cloudflarestatus.com"
     },
     {
