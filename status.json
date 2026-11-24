@@ -1,17 +1,15 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-24T17:21:15.180Z",
+  "checkedAt": "2026-11-24T17:51:41.279Z",
   "overall": "degraded",
   "providers": [
     {
       "provider": "anthropic",
       "name": "Anthropic",
-      "state": "degraded",
-      "since": "2026-11-24T17:21:15.180Z",
-      "evidence": [
-        "feed"
-      ],
-      "incident": "Elevated errors for Claude Haiku 5.5",
+      "state": "operational",
+      "since": "2026-11-24T17:51:41.279Z",
+      "evidence": [],
+      "incident": null,
       "page": "https://status.claude.com"
     },
     {
@@ -72,15 +70,6 @@
     }
   ],
   "notices": [
-    {
-      "provider": "anthropic",
-      "features": [
-        "replies",
-        "builds"
-      ],
-      "text": "Anthropic reports a problem. Your messages are saved, and Crew will reply and carry on building when it's fixed. Nothing is charged while it waits.",
-      "since": "2026-11-24T17:21:15.180Z"
-    },
     {
       "provider": "cloudflare",
       "features": [
