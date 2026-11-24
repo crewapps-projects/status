@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-24T07:58:03.493Z",
+  "checkedAt": "2026-11-24T08:26:29.540Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Increased Errors for Durable Objects in Seattle",
+      "incident": "Cloudflare Workers API – Delayed or Inconsistent Responses",
       "page": "https://www.cloudflarestatus.com"
     },
     {
