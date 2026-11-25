@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-25T16:29:08.301Z",
+  "checkedAt": "2026-11-25T16:51:34.834Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "incident": "Elevated R2 errors for buckets in APAC region",
       "page": "https://www.cloudflarestatus.com"
     },
     {
