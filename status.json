@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-25T18:15:29.946Z",
+  "checkedAt": "2026-11-25T18:31:49.636Z",
   "overall": "degraded",
   "providers": [
     {
@@ -35,12 +35,10 @@
     {
       "provider": "elevenlabs",
       "name": "ElevenLabs",
-      "state": "degraded",
-      "since": "2026-11-25T18:03:13.930Z",
-      "evidence": [
-        "feed"
-      ],
-      "incident": "Agents SIP Audio Quality Degradation in US (Global) region",
+      "state": "operational",
+      "since": "2026-11-25T18:31:49.636Z",
+      "evidence": [],
+      "incident": null,
       "page": "https://status.elevenlabs.io"
     },
     {
@@ -81,14 +79,6 @@
       ],
       "text": "Cloudflare reports a problem. Cloudflare runs Crew and your sites, so some things may be slow or unreachable until it's fixed.",
       "since": "2026-11-14T23:41:52.691Z"
-    },
-    {
-      "provider": "elevenlabs",
-      "features": [
-        "voice"
-      ],
-      "text": "ElevenLabs reports a problem. Crew's replies come as text, not voice, until it's fixed.",
-      "since": "2026-11-25T18:03:13.930Z"
     }
   ]
 }
