@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-25T16:51:34.834Z",
+  "checkedAt": "2026-11-25T16:53:43.473Z",
   "overall": "degraded",
   "providers": [
     {
@@ -44,12 +44,10 @@
     {
       "provider": "github",
       "name": "GitHub",
-      "state": "degraded",
-      "since": "2026-11-25T15:58:29.898Z",
-      "evidence": [
-        "feed"
-      ],
-      "incident": "Investigating degraded experiences across GitHub products",
+      "state": "operational",
+      "since": "2026-11-25T16:53:43.473Z",
+      "evidence": [],
+      "incident": null,
       "page": "https://www.githubstatus.com"
     },
     {
@@ -81,14 +79,6 @@
       ],
       "text": "Cloudflare reports a problem. Cloudflare runs Crew and your sites, so some things may be slow or unreachable until it's fixed.",
       "since": "2026-11-14T23:41:52.691Z"
-    },
-    {
-      "provider": "github",
-      "features": [
-        "backups"
-      ],
-      "text": "GitHub reports a problem. Crew can't back up your projects right now. Your work is safe, and the backup catches up when it's fixed.",
-      "since": "2026-11-25T15:58:29.898Z"
     }
   ]
 }
