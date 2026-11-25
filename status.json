@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-25T18:03:13.930Z",
+  "checkedAt": "2026-11-25T18:15:29.946Z",
   "overall": "degraded",
   "providers": [
     {
@@ -40,7 +40,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Agents SIP Audio Quality Degradation in US region",
+      "incident": "Agents SIP Audio Quality Degradation in US (Global) region",
       "page": "https://status.elevenlabs.io"
     },
     {
