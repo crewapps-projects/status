@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-26T09:30:03.214Z",
+  "checkedAt": "2026-11-26T09:38:16.446Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Cloudflare Billing Issues",
+      "incident": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "page": "https://www.cloudflarestatus.com"
     },
     {
