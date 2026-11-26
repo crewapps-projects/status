@@ -101,10 +101,10 @@
     },
     {
       "day": "2026-11-26",
-      "ticks": 2,
+      "ticks": 7,
       "degradedMinutes": {
-        "cloudflare": 4,
-        "paystack": 4
+        "cloudflare": 14,
+        "paystack": 14
       }
     }
   ]
