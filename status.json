@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-26T17:29:03.792Z",
+  "checkedAt": "2026-11-26T17:51:23.830Z",
   "overall": "degraded",
   "providers": [
     {
@@ -53,12 +53,10 @@
     {
       "provider": "firebase",
       "name": "Firebase",
-      "state": "degraded",
-      "since": "2026-11-26T16:58:17.425Z",
-      "evidence": [
-        "feed"
-      ],
-      "incident": "Safari users in North America could be experiencing errors and latency increases on WebPush notification deliveries.",
+      "state": "operational",
+      "since": "2026-11-26T17:51:23.830Z",
+      "evidence": [],
+      "incident": null,
       "page": "https://status.firebase.google.com"
     },
     {
@@ -81,14 +79,6 @@
       ],
       "text": "Cloudflare reports a problem. Cloudflare runs Crew and your sites, so some things may be slow or unreachable until it's fixed.",
       "since": "2026-11-14T23:41:52.691Z"
-    },
-    {
-      "provider": "firebase",
-      "features": [
-        "sign-in"
-      ],
-      "text": "Firebase reports a problem. Signing in may fail until it's fixed. If you're already signed in, you can keep working.",
-      "since": "2026-11-26T16:58:17.425Z"
     }
   ]
 }
