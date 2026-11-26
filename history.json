@@ -91,12 +91,20 @@
     },
     {
       "day": "2026-11-25",
-      "ticks": 695,
+      "ticks": 708,
       "degradedMinutes": {
-        "cloudflare": 1390,
+        "cloudflare": 1416,
         "github": 54,
         "elevenlabs": 28,
-        "paystack": 32
+        "paystack": 58
+      }
+    },
+    {
+      "day": "2026-11-26",
+      "ticks": 2,
+      "degradedMinutes": {
+        "cloudflare": 4,
+        "paystack": 4
       }
     }
   ]
