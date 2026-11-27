@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-27T21:49:15.389Z",
+  "checkedAt": "2026-11-27T21:51:29.406Z",
   "overall": "degraded",
   "providers": [
     {
@@ -53,8 +53,8 @@
     {
       "provider": "firebase",
       "name": "Firebase",
-      "state": "unknown",
-      "since": "2026-11-27T21:49:15.389Z",
+      "state": "operational",
+      "since": "2026-11-27T21:51:29.406Z",
       "evidence": [],
       "incident": null,
       "page": "https://status.firebase.google.com"
