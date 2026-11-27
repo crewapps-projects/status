@@ -1,15 +1,17 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-27T10:31:00.088Z",
+  "checkedAt": "2026-11-27T10:35:06.196Z",
   "overall": "degraded",
   "providers": [
     {
       "provider": "anthropic",
       "name": "Anthropic",
-      "state": "operational",
-      "since": "2026-11-24T17:51:41.279Z",
-      "evidence": [],
-      "incident": null,
+      "state": "degraded",
+      "since": "2026-11-27T10:35:06.196Z",
+      "evidence": [
+        "feed"
+      ],
+      "incident": "Degraded performance for Claude Fable 5.2",
       "page": "https://status.claude.com"
     },
     {
@@ -70,6 +72,15 @@
     }
   ],
   "notices": [
+    {
+      "provider": "anthropic",
+      "features": [
+        "replies",
+        "builds"
+      ],
+      "text": "Anthropic reports a problem. Your messages are saved, and Crew will reply and carry on building when it's fixed. Nothing is charged while it waits.",
+      "since": "2026-11-27T10:35:06.196Z"
+    },
     {
       "provider": "cloudflare",
       "features": [
