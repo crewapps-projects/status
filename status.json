@@ -1,6 +1,6 @@
 {
   "schema": "crew.status@1",
-  "checkedAt": "2026-11-28T04:23:56.745Z",
+  "checkedAt": "2026-11-28T04:46:05.650Z",
   "overall": "degraded",
   "providers": [
     {
@@ -20,7 +20,7 @@
       "evidence": [
         "feed"
       ],
-      "incident": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "incident": "Elevated Errors for Cloudflare Workers Subrequests",
       "page": "https://www.cloudflarestatus.com"
     },
     {
